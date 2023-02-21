@@ -139,43 +139,49 @@
 </tr>           -->
 
 <!-- bpnpl -->
-<!--           <tr onmouseout="bpnpl_stop()" onmouseover="bpnpl_start()">
+          <tr onmouseout="dofnerf_stop()" onmouseover="dofnerf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='bpnpl_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="img/bpnpl.mp4" type="video/mp4">
+                <div class="two" id='dofnerf_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="img/dofnerf.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='img/bpnpl.png' width="160">
+                <img src='img/dofnerf.png' width="160">
               </div>
               <script type="text/javascript">
-                function bpnpl_start() {
-                  document.getElementById('bpnpl_image').style.opacity = "1";
+                function dofnerf_start() {
+                  document.getElementById('dofnerf_image').style.opacity = "1";
                 }
 
-                function bpnpl_stop() {
-                  document.getElementById('bpnpl_image').style.opacity = "0";
+                function dofnerf_stop() {
+                  document.getElementById('dofnerf_image').style.opacity = "0";
                 }
-                bpnpl_stop()
+                dofnerf_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/2210.04543.pdf">
-                <papertitle>Sparse Semantic Map-Based Monocular Localization in Traffic Scenes Using Learned 2D-3D Point-Line Correspondences</papertitle>
+              <a href="https://arxiv.org/abs/2208.00945">
+                <papertitle>DoF-NeRF: Depth-of-Field Meets Neural Radiance Fields</papertitle>
               </a>
               <br>
-              <strong>Xingyu Chen</strong>,
-              <a href="https://gr.xjtu.edu.cn/en/web/jrxue">Jianru Xue</a>,
-              <a href="https://gr.xjtu.edu.cn/en/web/pangsm/4">Shanmin Pang</a>
+              <a href="https://github.com/zijinwuzijin">Zijin Wu</a>,
+              <strong>Xingyi Li</strong>,
+              <a href="https://juewenpeng.github.io/">Juewen Peng</a>,
+              <a href="https://sites.google.com/site/poppinace/">Hao Lu</a>,
+              <a href="http://english.aia.hust.edu.cn/info/1030/1072.htm">Zhiguo Cao</a>,
+              <a href="https://scholar.google.com/citations?hl=en&user=fS2vzBoAAAAJ&view_op=list_works&sortby=pubdate">Weicai Zhong</a>
               <br>
               <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2022
               <br>
-              <a href="https://arxiv.org/pdf/2210.04543.pdf">arXiv</a> /
-              <a href="https://ieeexplore.ieee.org/document/9895296">paper</a> 
+              <a href="https://arxiv.org/pdf/2208.00945.pdf">arXiv</a> /
+              <a href="https://github.com/zijinwuzijin/DoF-NeRF/blob/main/pdf/DoF_NeRF_Depth_of_Field_Meets_Neural_Radiance_Fields.pdf">paper</a> /
+              <a href="https://github.com/zijinwuzijin/DoF-NeRF/blob/main/pdf/DoF_NeRF_Depth_of_Field_Meets_Neural_Radiance_Fields_Supplementary_Material.pdf">supplementary</a> /
+              <a href="https://www.youtube.com/watch?v=WVmO2e0pdQk">video</a> /
+              <a href="https://github.com/zijinwuzijin/DoF-NeRF">code</a> /
               <p></p>
-              <p>Given a sparse semantic map that consists of simplified elements (e.g., pole lines, traffic sign midpoints), the camera pose is estimated by learning the corresponding features between the 2D semantic elements from image and the 3D elements from sparse semantic map. The proposed sparse semantic map-based localization approach is robust against occlusion and long-term appearance changes in the environments.</p>
+              <p>We introduce DoF-NeRF, a novel neural rendering approach that can deal with shallow DoF inputs and can simulate DoF effect. In particular, it extends NeRF to simulate the aperture of lens following the principles of geometric optics. Such a physical guarantee allows DoF-NeRF to operate views with different focus configurations. Benefiting from explicit aperture modeling, DoF-NeRF also enables direct manipulation of DoF effect by adjusting virtual aperture and focus parameters.</p>
             </td>
-          </tr>  -->
+          </tr> 
 
 <!-- hanerf -->
 <!--           <tr onmouseout="hanerf_stop()" onmouseover="hanerf_start()">
