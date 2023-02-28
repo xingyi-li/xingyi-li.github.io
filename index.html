@@ -52,7 +52,51 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    
+  
+<!-- 3d-cinemagraphy -->
+<tr onmouseout="3d_cinemagraphy_stop()" onmouseover="3d_cinemagraphy_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='3d_cinemagraphy_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="images/3d-cinemagraphy.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='images/3d-cinemagraphy.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function 3d_cinemagraphy_start() {
+        document.getElementById('3d_cinemagraphy_image').style.opacity = "1";
+      }
+
+      function 3d_cinemagraphy_stop() {
+        document.getElementById('3d_cinemagraphy_image').style.opacity = "0";
+      }
+      3d_cinemagraphy_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2209.14819">
+      <papertitle>3D Cinemagraphy from a Single Image</papertitle>
+    </a>
+    <br>
+    <strong>Xingyi Li</strong>,
+    <a href="http://english.aia.hust.edu.cn/info/1030/1072.htm">Zhiguo Cao</a>,
+    Huiqiang Sun,
+    <a href="https://jimmie33.github.io/">Jianming Zhang</a>
+    <a href="https://sites.google.com/site/kexian1991/">Ke Xian</a>,
+    <a href="https://guosheng.github.io/">Guosheng Lin</a>
+    <br>
+    <em>CVPR</em>, 2023
+    <br>
+<!--     <a href="https://rover-xingyu.github.io/L2G-NeRF/">project page</a> / -->
+    <a href="https://arxiv.org/pdf/2209.14819.pdf">arXiv</a> /
+    <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Li_SymmNeRF_Learning_to_Explore_Symmetry_Prior_for_Single-View_View_Synthesis_ACCV_2022_paper.pdf">paper</a> /
+    <a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Li_SymmNeRF_Learning_to_ACCV_2022_supplemental.pdf">supplementary</a> /
+    <a href="https://github.com/xingyi-li/SymmNeRF">code</a>
+    <p></p>
+    <p>Explicitly injecting symmetry priors to NeRF can benefit novel view synthesis of objects from a single image.</p>
+  </td>
+</tr> 
           
 <!-- l2g -->
 <tr onmouseout="symmnerf_stop()" onmouseover="symmnerf_start()">
