@@ -1,0 +1,351 @@
+{
+  "name": "GameSceneBench",
+  "description": "Transcribed from the supplied supplementary manuscript; 56 outdoor and 13 indoor prompts.",
+  "prompts": [
+    {
+      "id": "park_square",
+      "subset": "outdoor",
+      "prompt": "Generate an urban park square scene."
+    },
+    {
+      "id": "mongolia_grassland",
+      "subset": "outdoor",
+      "prompt": "Generate an Inner Mongolian grassland scene."
+    },
+    {
+      "id": "rural_village",
+      "subset": "outdoor",
+      "prompt": "Generate a rural village scene."
+    },
+    {
+      "id": "winter_town",
+      "subset": "outdoor",
+      "prompt": "Generate a winter town scene."
+    },
+    {
+      "id": "ice_wonderland",
+      "subset": "outdoor",
+      "prompt": "Generate an ice-and-snow wonderland with a scenic promenade, a giant ice slide, a snowflake-shaped Ferris wheel, and lively interactive winter attractions that convey the distinctive atmosphere of an ice city."
+    },
+    {
+      "id": "primitive_tribe",
+      "subset": "outdoor",
+      "prompt": "Generate a primitive tribal settlement scene."
+    },
+    {
+      "id": "egypt_adventure",
+      "subset": "outdoor",
+      "prompt": "Generate an ancient Egyptian expedition scene with a wooden rail track and mine cart leading to a cave, as well as expedition tents and wooden crates."
+    },
+    {
+      "id": "chinese_garden",
+      "subset": "outdoor",
+      "prompt": "Generate a classical Chinese garden with traditional buildings, a pond, a small pavilion, and covered corridors."
+    },
+    {
+      "id": "epic_valley",
+      "subset": "outdoor",
+      "prompt": "Generate a valley flanked by steep mountain ranges covered with fir forests. A winding river should cross the valley floor and form pebble banks and shallows, with dense vegetation and rocks in the foreground."
+    },
+    {
+      "id": "summer_field",
+      "subset": "outdoor",
+      "prompt": "Generate a summer field scene."
+    },
+    {
+      "id": "venice",
+      "subset": "outdoor",
+      "prompt": "Generate a Venetian canal-city scene."
+    },
+    {
+      "id": "school_track",
+      "subset": "outdoor",
+      "prompt": "Generate a school athletic field surrounded by classroom buildings and lush trees."
+    },
+    {
+      "id": "mt_fuji",
+      "subset": "outdoor",
+      "prompt": "Generate a scene at the foot of snow-covered Mount Fuji, where a vintage tram travels along a quiet Japanese street lined with blooming pink cherry trees, creating a beautiful and soothing atmosphere."
+    },
+    {
+      "id": "flower_garden",
+      "subset": "outdoor",
+      "prompt": "Generate a small flower-garden scene."
+    },
+    {
+      "id": "beach_resort",
+      "subset": "outdoor",
+      "prompt": "Generate a resort beach scene."
+    },
+    {
+      "id": "volleyball_court",
+      "subset": "outdoor",
+      "prompt": "Generate a beach volleyball scene."
+    },
+    {
+      "id": "japanese_onsen",
+      "subset": "outdoor",
+      "prompt": "Generate an outdoor Japanese hot-spring scene."
+    },
+    {
+      "id": "pine_forest",
+      "subset": "outdoor",
+      "prompt": "Generate a pine forest scene."
+    },
+    {
+      "id": "zen_garden",
+      "subset": "outdoor",
+      "prompt": "Generate a dry-landscape Zen garden."
+    },
+    {
+      "id": "baseball_field",
+      "subset": "outdoor",
+      "prompt": "Generate a baseball field scene."
+    },
+    {
+      "id": "sakura_grove",
+      "subset": "outdoor",
+      "prompt": "Generate a cherry-blossom grove."
+    },
+    {
+      "id": "european_garden",
+      "subset": "outdoor",
+      "prompt": "Generate a European-themed garden."
+    },
+    {
+      "id": "pond_stream",
+      "subset": "outdoor",
+      "prompt": "Generate a pond-and-stream scene."
+    },
+    {
+      "id": "desert_gobi",
+      "subset": "outdoor",
+      "prompt": "Generate a desert and Gobi landscape."
+    },
+    {
+      "id": "desert_oasis",
+      "subset": "outdoor",
+      "prompt": "Generate a desert oasis surrounded by sparse cacti of different species and several dead trees."
+    },
+    {
+      "id": "desert_camp",
+      "subset": "outdoor",
+      "prompt": "Generate a desert-oasis campsite surrounded by scattered dead trees. Place a clear circular pool at the center, with dense flowers, shrubs, and several tall palm trees around it. Include a stone-built water point and several tents beside the pool."
+    },
+    {
+      "id": "swimming_pool",
+      "subset": "outdoor",
+      "prompt": "Generate an outdoor swimming pool with white lounge chairs and sun umbrellas along the poolside, conveying a relaxed vacation atmosphere."
+    },
+    {
+      "id": "creek_canyon",
+      "subset": "outdoor",
+      "prompt": "Generate a stream-canyon scene."
+    },
+    {
+      "id": "tropical_beach",
+      "subset": "outdoor",
+      "prompt": "Generate a tropical palm beach."
+    },
+    {
+      "id": "tropical_resort",
+      "subset": "outdoor",
+      "prompt": "Generate a tropical seaside resort."
+    },
+    {
+      "id": "tomb_raider",
+      "subset": "outdoor",
+      "prompt": "Generate a tomb-exploration adventure scene."
+    },
+    {
+      "id": "bamboo_forest",
+      "subset": "outdoor",
+      "prompt": "Generate a bamboo forest scene."
+    },
+    {
+      "id": "basketball_court",
+      "subset": "outdoor",
+      "prompt": "Generate a regulation basketball court."
+    },
+    {
+      "id": "tennis_court",
+      "subset": "outdoor",
+      "prompt": "Generate a tennis court scene."
+    },
+    {
+      "id": "soccer_field",
+      "subset": "outdoor",
+      "prompt": "Generate a regulation soccer field."
+    },
+    {
+      "id": "snow_camp",
+      "subset": "outdoor",
+      "prompt": "Generate a snowy campsite enclosed by dense snow-covered coniferous forest. The central clearing should have level snow, several tents, and a wind-sheltered fire pit built from stones. Place several wooden stakes around the campsite as boundary markers."
+    },
+    {
+      "id": "chinese_temple",
+      "subset": "outdoor",
+      "prompt": "Generate a traditional Chinese temple scene."
+    },
+    {
+      "id": "military_base",
+      "subset": "outdoor",
+      "prompt": "Generate a military base scene."
+    },
+    {
+      "id": "military_march",
+      "subset": "outdoor",
+      "prompt": "Generate a scene of a Chinese military unit marching through the countryside."
+    },
+    {
+      "id": "villa_town",
+      "subset": "outdoor",
+      "prompt": "Generate a villa town with several neatly arranged modern villas along level streets, each with a small garden. Include a circular fountain plaza at the center, and enclose the scene with dense trees and orderly hedges."
+    },
+    {
+      "id": "ancient_city",
+      "subset": "outdoor",
+      "prompt": "Generate a scene depicting an assault on a fortified city in ancient China."
+    },
+    {
+      "id": "ancient_ruins",
+      "subset": "outdoor",
+      "prompt": "Generate ancient architectural ruins with broken walls, drifting sand, and overgrown weeds."
+    },
+    {
+      "id": "subway_station",
+      "subset": "outdoor",
+      "prompt": "Generate a subway station scene."
+    },
+    {
+      "id": "city_street",
+      "subset": "outdoor",
+      "prompt": "Generate an urban street scene with a roadway and ordinary buildings."
+    },
+    {
+      "id": "night_market",
+      "subset": "outdoor",
+      "prompt": "Generate a night-market food street."
+    },
+    {
+      "id": "wasteland_defense",
+      "subset": "outdoor",
+      "prompt": "Generate a post-apocalyptic wasteland defense position centered on a circular base enclosed by abandoned cars, barbed wire, and sandbags. Include a campfire and several worn tents inside the base."
+    },
+    {
+      "id": "airport",
+      "subset": "outdoor",
+      "prompt": "Generate an international airport scene."
+    },
+    {
+      "id": "forest_town",
+      "subset": "outdoor",
+      "prompt": "Generate a forest town surrounded by dense woodland. At its center, stone-paved streets connect rows of wooden and brick houses. Include an open-air market in the central square with stalls displaying furs, herbs, and handicrafts, and place a fenced stable and a blacksmith shop at the edge of the settlement."
+    },
+    {
+      "id": "amusement_park",
+      "subset": "outdoor",
+      "prompt": "Generate an amusement park scene."
+    },
+    {
+      "id": "banana_factory",
+      "subset": "outdoor",
+      "prompt": "Generate a banana-processing factory."
+    },
+    {
+      "id": "tang_dynasty",
+      "subset": "outdoor",
+      "prompt": "Generate a prosperous Tang-dynasty Chang'an scene with a lively food street, an ornate palace, and lanterns filling the sky."
+    },
+    {
+      "id": "western_cowboy",
+      "subset": "outdoor",
+      "prompt": "Generate an American Western scene in which a train departs along a railroad bordered by sparse cacti of different species."
+    },
+    {
+      "id": "western_town",
+      "subset": "outdoor",
+      "prompt": "Build an American frontier-era cowboy town with wooden buildings lining both sides of a main street."
+    },
+    {
+      "id": "supermarket_parking",
+      "subset": "outdoor",
+      "prompt": "Generate a Sam's Club parking-lot scene."
+    },
+    {
+      "id": "marketplace",
+      "subset": "outdoor",
+      "prompt": "Generate a marketplace scene."
+    },
+    {
+      "id": "graveyard",
+      "subset": "outdoor",
+      "prompt": "Generate a graveyard scene."
+    },
+    {
+      "id": "indoor_cozy_bedroom_tv",
+      "subset": "indoor",
+      "prompt": "Generate a cozy double bedroom with the head of the bed against a wall, one nightstand and table lamp on each side, and a wall-mounted television directly opposite the foot of the bed."
+    },
+    {
+      "id": "indoor_living_room",
+      "subset": "indoor",
+      "prompt": "Generate a modern apartment living room."
+    },
+    {
+      "id": "indoor_dining_room",
+      "subset": "indoor",
+      "prompt": "Generate a family dining room with a rectangular dining table at the center, four chairs facing the table, a sideboard against a wall, and a pendant light directly above the table."
+    },
+    {
+      "id": "indoor_home_office",
+      "subset": "indoor",
+      "prompt": "Generate a home office with a desk against a wall, an office chair facing the desk, a bookcase against a wall, and a reading corner composed of a floor lamp and a small plant."
+    },
+    {
+      "id": "indoor_kitchen",
+      "subset": "indoor",
+      "prompt": "Generate a kitchen."
+    },
+    {
+      "id": "indoor_meeting_room",
+      "subset": "indoor",
+      "prompt": "Generate a large meeting room."
+    },
+    {
+      "id": "indoor_gym",
+      "subset": "indoor",
+      "prompt": "Generate the interior of a gym."
+    },
+    {
+      "id": "indoor_fruit_store",
+      "subset": "indoor",
+      "prompt": "Generate the interior of a fruit store."
+    },
+    {
+      "id": "indoor_hotel_lobby",
+      "subset": "indoor",
+      "prompt": "Generate a hotel lobby."
+    },
+    {
+      "id": "indoor_laundry_room",
+      "subset": "indoor",
+      "prompt": "Generate a laundry room."
+    },
+    {
+      "id": "indoor_nursery",
+      "subset": "indoor",
+      "prompt": "Generate a nursery."
+    },
+    {
+      "id": "indoor_gaming_room",
+      "subset": "indoor",
+      "prompt": "Generate a gaming room."
+    },
+    {
+      "id": "indoor_garage",
+      "subset": "indoor",
+      "prompt": "Generate a garage interior."
+    }
+  ]
+}

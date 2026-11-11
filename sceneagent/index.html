@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SceneAgent: a multi-agent framework for portable game scene generation. Explore generated worlds, cross-engine deployment, and reusable scene-construction skills.">
+  <meta name="theme-color" content="#f8faff">
+  <meta property="og:title" content="SceneAgent — Portable Game Scene Generation">
+  <meta property="og:description" content="Persistent worlds. Fresh agents. Reusable experience. A multi-agent framework for constructing game scenes across backends.">
+  <meta property="og:image" content="assets/city-street.jpg">
+  <title>SceneAgent — Portable Game Scene Generation</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#" aria-label="SceneAgent home"><svg class="brand-symbol" viewBox="0 0 40 44" aria-hidden="true"><path class="cube-top" d="M20 2 37 12 20 22 3 12Z"/><path class="cube-left" d="m3 12 17 10v20L3 32Z"/><path class="cube-right" d="m20 22 17-10v20L20 42Z"/><path class="cube-detail" d="m11.5 7 17 10v20"/></svg><span class="wordmark">SceneAgent<span class="brand-dot">.</span></span></a>
+      <nav aria-label="Main navigation"><a href="#showcase">Scenes</a><a href="#portability">Portability</a><a href="#method">Method</a><a href="#results">Results</a></nav>
+      <a class="nav-paper" href="assets/sceneagent-paper.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="page-title">
+      <p class="eyebrow"><span class="tiny-cube" aria-hidden="true"></span> Portable game scene generation</p>
+      <h1 id="page-title" aria-label="SceneAgent"><svg class="brand-symbol" viewBox="0 0 40 44" aria-hidden="true"><path class="cube-top" d="M20 2 37 12 20 22 3 12Z"/><path class="cube-left" d="m3 12 17 10v20L3 32Z"/><path class="cube-right" d="m20 22 17-10v20L20 42Z"/><path class="cube-detail" d="m11.5 7 17 10v20"/></svg><span class="wordmark">SceneAgent<span class="brand-dot">.</span></span></h1>
+      <p class="paper-title">A Multi-Agent Framework for<br class="desktop-break"> Portable Game Scene Generation</p>
+      <div class="authors"><span>Xingyi Li<sup>1,*</sup></span><span>Jiahao Yang<sup>2,*</sup></span><span>Yiqin Zhu<sup>1</sup></span><span>Jingwen Ye<sup>1,†</sup></span><span>Yang Sun<sup>1</sup></span><span>Weidong Zhang<sup>1,†</sup></span></div>
+      <p class="affiliations"><span><sup>1</sup> Tencent</span><span><sup>2</sup> Fudan University</span></p>
+      <p class="author-notes">* Equal contribution <span>† Corresponding authors</span></p>
+      <div class="resource-links">
+        <a class="button primary" href="assets/sceneagent-paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper <span aria-hidden="true">↗</span></a>
+        <a class="button" href="#video"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="m10 9 5 3-5 3Z"/></svg>Video</a>
+        <a class="button" id="code-link" href="#" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg><span id="code-label">Code</span></a>
+      </div>
+      <p class="hero-summary">Construct rich game scenes with coordinated agents.<br> Reuse the <strong>process</strong> and <strong>experience</strong> across engines.</p>
+    </section>
+
+    <section class="video-section wrap" id="video" aria-label="Project video">
+      <div class="video-frame" id="video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/_6T_GvOH6cw?rel=0" title="SceneAgent project video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="video-caption"><span><span class="status-dot" aria-hidden="true"></span> A tour of generated worlds</span><span>Project video <span class="caption-separator">/</span> 2:30</span></div>
+      <div class="chapters" aria-label="Jump to a video example"><span>Jump into a world</span><button data-time="10">City Street <span>0:10 ↗</span></button><button data-time="65">Tang Dynasty <span>1:05 ↗</span></button><button data-time="100">Engine B <span>1:40 ↗</span></button></div>
+    </section>
+
+    <section class="intro wrap" aria-labelledby="intro-title">
+      <div><p class="eyebrow">The idea</p><h2 id="intro-title">Build worlds.<br> Carry experience forward.</h2></div>
+      <div class="intro-copy"><p>Moving a scene generator to a new engine requires more than exporting its output. Its planning, tools, and stored experience may depend on the original backend.</p><p>SceneAgent separates persistent scene state, task-local reasoning, and reusable skills. Coordinated agents construct the scene; backend adapters handle how it is realized in each engine.</p></div>
+    </section>
+
+    <section class="showcase section-tint" id="showcase" aria-labelledby="scenes-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">Scene collection</p><h2 id="scenes-title">One framework. Many scenes.</h2></div><p>From city streets to imagined worlds.<br> Selected frames from the project video.</p></div>
+        <div class="scene-grid">
+          <button class="scene" data-image="assets/city-street.jpg" data-caption="City Street · Engine A"><span class="scene-image"><img src="assets/city-street.jpg" alt="A colorful city street with storefronts, trees, and vehicles" loading="lazy"><span class="expand" aria-hidden="true">↗</span></span><span class="scene-caption"><strong>City Street</strong><span>Engine A</span></span></button>
+          <button class="scene" data-image="assets/western-town.jpg" data-caption="Western Town · Engine A"><span class="scene-image"><img src="assets/western-town.jpg" alt="A western town organized around a central street" loading="lazy"><span class="expand" aria-hidden="true">↗</span></span><span class="scene-caption"><strong>Western Town</strong><span>Engine A</span></span></button>
+          <button class="scene" data-image="assets/ice-wonderland.jpg" data-caption="Ice Wonderland · Engine A"><span class="scene-image"><img src="assets/ice-wonderland.jpg" alt="An icy fantasy world with snow-covered trees and colorful fences" loading="lazy"><span class="expand" aria-hidden="true">↗</span></span><span class="scene-caption"><strong>Ice Wonderland</strong><span>Engine A</span></span></button>
+          <button class="scene" data-image="assets/chinese-temple.jpg" data-caption="Chinese Temple · Engine A"><span class="scene-image"><img src="assets/chinese-temple.jpg" alt="A red Chinese temple with a curved roof and stone lanterns" loading="lazy"><span class="expand" aria-hidden="true">↗</span></span><span class="scene-caption"><strong>Chinese Temple</strong><span>Engine A</span></span></button>
+          <button class="scene" data-image="assets/tang-dynasty-a.jpg" data-caption="Tang Dynasty · Engine A"><span class="scene-image"><img src="assets/tang-dynasty-a.jpg" alt="A traditional street decorated with red lanterns and market stalls" loading="lazy"><span class="expand" aria-hidden="true">↗</span></span><span class="scene-caption"><strong>Tang Dynasty</strong><span>Engine A</span></span></button>
+          <button class="scene" data-image="assets/tomb-raider.jpg" data-caption="Tomb Raider · Engine A"><span class="scene-image"><img src="assets/tomb-raider.jpg" alt="An atmospheric ruin with stone walls, a suspended obstacle, and a spiked pit" loading="lazy"><span class="expand" aria-hidden="true">↗</span></span><span class="scene-caption"><strong>Tomb Raider</strong><span>Engine A</span></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" id="portability" aria-labelledby="portability-title">
+      <div class="section-heading"><div><p class="eyebrow">Built to travel</p><h2 id="portability-title">Shared reasoning.<br> Different realizations.</h2></div><p>The same construction protocol and skill library,<br> retargeted through backend integration components.</p></div>
+      <div class="engine-pair">
+        <figure><button class="image-button" data-image="assets/ice-wonderland.jpg" data-caption="Ice Wonderland · Engine A" aria-label="Enlarge Ice Wonderland in Engine A"><img src="assets/ice-wonderland.jpg" alt="Ice Wonderland generated in Engine A" loading="lazy"></button><figcaption><span class="engine-label">ENGINE A</span><span>Ice Wonderland</span></figcaption></figure>
+        <figure><button class="image-button" data-image="assets/ice-wonderland-b.jpg" data-caption="Ice Wonderland · Engine B" aria-label="Enlarge Ice Wonderland in Engine B"><img src="assets/ice-wonderland-b.jpg" alt="Ice Wonderland generated in Engine B with a different asset catalog" loading="lazy"></button><figcaption><span class="engine-label second">ENGINE B</span><span>Ice Wonderland</span></figcaption></figure>
+      </div>
+      <div class="portability-notes"><p><strong>Reused</strong> Agent protocol, SceneContext, core tools, and semantic skills.</p><p><strong>Adapted</strong> Backend adapter, asset catalog and database, and capability-tool wrappers.</p></div>
+      <p class="fine-print">Qualitative examples of retargeting. The engines use different asset catalogs; these are not matched quality comparisons.</p>
+    </section>
+
+    <section class="section-tint" id="method" aria-labelledby="method-title"><div class="wrap section">
+      <div class="section-heading"><div><p class="eyebrow">Inside SceneAgent</p><h2 id="method-title">Persistent worlds. Fresh agents.</h2></div><p>Separate what the world remembers<br> from what each agent needs to reason about.</p></div>
+      <figure class="method-figure"><button class="image-button" data-image="assets/overview.png" data-caption="SceneAgent system overview" aria-label="Enlarge SceneAgent system overview"><img src="assets/overview.png" alt="SceneAgent system diagram: the Orchestrator coordinates Planner and fresh Builder sessions through SceneContext, with backend adapters and a human-gated experience update path" loading="lazy"></button><figcaption>Within-run construction and cross-run experience reuse.</figcaption></figure>
+      <div class="method-steps"><article><span class="step-number">01 / COORDINATE</span><h3>Plan, then construct</h3><p>The Orchestrator retrieves skills. The Planner organizes semantic subtasks. Fresh Builders query the persistent scene state and carry out each task.</p></article><article><span class="step-number">02 / REALIZE</span><h3>Isolate the backend</h3><p>A canonical SceneContext stores the evolving world. Adapters handle coordinate conventions, asset bindings, and export to the target engine.</p></article><article><span class="step-number">03 / REUSE</span><h3>Retain approved experience</h3><p>Human-approved traces become asset-ID-free Layout skills and semantic Content skills, ready to retrieve and recombine in later generations.</p></article></div>
+    </div></section>
+
+    <section class="wrap section" id="results" aria-labelledby="results-title">
+      <div class="section-heading"><div><p class="eyebrow">GameSceneBench</p><h2 id="results-title">Evaluating complete scenes.</h2></div><p>69 prompts: 56 outdoor and 13 indoor.<br> Common assets and evaluation protocol in Engine A.</p></div>
+      <div class="results-layout"><div class="result-highlight"><span class="eyebrow">Overall human preference</span><strong>83.3<span>%</span></strong><p>Tie-adjusted preference across<br> 1,860 human judgments.</p><div class="outcome-track" aria-label="76.9 percent wins, 12.7 percent ties, 10.3 percent losses"><span class="wins"></span><span class="ties"></span><span class="losses"></span></div><div class="outcome-key"><span><i class="win-dot"></i>Win 76.9%</span><span><i class="tie-dot"></i>Tie 12.7%</span><span><i class="loss-dot"></i>Loss 10.3%</span></div></div>
+      <div class="results-table-wrap"><table><caption>SceneAgent preference vs. each baseline</caption><thead><tr><th scope="col">Comparator</th><th scope="col">Human preference</th></tr></thead><tbody><tr><th scope="row">AutoUE<sup>†</sup></th><td><span class="bar" style="--value:89.4%"></span><strong>89.4%</strong></td></tr><tr><th scope="row">Holodeck</th><td><span class="bar" style="--value:85.2%"></span><strong>85.2%</strong></td></tr><tr><th scope="row">ImperativeScene</th><td><span class="bar" style="--value:78.2%"></span><strong>78.2%</strong></td></tr><tr><th scope="row">Reason-3D</th><td><span class="bar" style="--value:81.2%"></span><strong>81.2%</strong></td></tr><tr><th scope="row">SceneWeaver</th><td><span class="bar" style="--value:82.7%"></span><strong>82.7%</strong></td></tr></tbody></table><p class="fine-print">50% indicates parity. Ties count as half a preference.<br> † AutoUE uses its original scene-layout stage adapted to the common backend.</p></div></div>
+      <p class="result-context">The clearest ablation gains are in prompt alignment and scene completeness, with additional runtime. Spatial plausibility remains a challenge. See the paper for full comparisons, protocols, and limitations.</p>
+    </section>
+
+    <section class="wrap section citation" id="citation" aria-labelledby="citation-title"><div class="citation-heading"><div><p class="eyebrow">Citation</p><h2 id="citation-title">Citation</h2></div><button class="button small" id="copy-citation">Copy BibTeX</button></div><pre><code id="bibtex">@misc{li2026sceneagent,
+  title={SceneAgent: A Multi-Agent Framework for Portable Game Scene Generation},
+  author={Xingyi Li and Jiahao Yang and Yiqin Zhu and Jingwen Ye and Yang Sun and Weidong Zhang},
+  year={2026}
+}</code></pre><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#"><svg class="brand-symbol" viewBox="0 0 40 44" aria-hidden="true"><path class="cube-top" d="M20 2 37 12 20 22 3 12Z"/><path class="cube-left" d="m3 12 17 10v20L3 32Z"/><path class="cube-right" d="m20 22 17-10v20L20 42Z"/><path class="cube-detail" d="m11.5 7 17 10v20"/></svg><span class="wordmark">SceneAgent<span class="brand-dot">.</span></span></a><span>Portable construction. Reusable experience.</span><a href="#">Back to top ↑</a></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-caption"><div class="dialog-toolbar"><span id="dialog-caption"></span><button id="close-dialog" aria-label="Close enlarged image">Close <span aria-hidden="true">×</span></button></div><img id="dialog-image" alt=""></dialog>
+</body>
+</html>
